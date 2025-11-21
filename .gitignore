@@ -1,0 +1,16 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Game saves (optional - eğer skorların gitmesini istemiyorsan ekle)
+high_scores.json
+stats.json
+config.json
