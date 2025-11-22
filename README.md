@@ -26,7 +26,7 @@ Bu oyunu çalıştırmak için bilgisayarınızda Python yüklü olmalıdır.
 
 1.  Bu depoyu klonlayın veya indirin:
     ```bash
-    git clone [https://github.com/Sitopapa/GlitchViper.git](https://github.com/Sitopapa/GlitchViper.git)
+    git clone https://github.com/Sitopapa/GlitchViper.git
     cd GlitchViper
     ```
 
