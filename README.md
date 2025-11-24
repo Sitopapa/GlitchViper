@@ -1,70 +1,112 @@
-# GLITCH VIPER 🐍
+# ⚡ GLITCH VIPER 🐍
 
-**Glitch Viper**, klasik yılan oyununun modern, kaotik ve özelliklerle dolu bir versiyonudur. Farklı oyun modları, "glitch" temalı görsel efektleri ve dinamik müzikleriyle benzersiz bir deneyim sunar.
+### A chaotic, glitch-powered reinvention of the classic Snake game.
 
-![Game Screenshot](assets/Images/logo.png)
+::: {align="center"}
+`<img src="assets/Images/logo.png" alt="Game Logo" width="300"/>`{=html}
+```{=html}
+<p>
+```
+`<strong>`{=html}Built with Python &
+Pygame`</strong>`{=html}`<br>`{=html}Fast • Dynamic • Glitch-Themed •
+Feature-Rich
+```{=html}
+</p>
+```
+`<img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge" />`{=html}
+`<img src="https://img.shields.io/badge/Pygame-2.x-green?style=for-the-badge" />`{=html}
+`<img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" />`{=html}
+:::
 
-## 🎮 Özellikler
+------------------------------------------------------------------------
 
-* **4 Farklı Oyun Modu:**
-    * **Classic:** Saf yetenek. Ekstra özellikler yok, sadece sen ve yılan.
-    * **Survival:** Zamana karşı yarış. Açlık barı bitmeden yemek ye!
-    * **Mutation:** Yılanın DNA'sı bozuluyor! Rastgele parçaların kopabilir.
-    * **Bomb:** Sahada patlayan bombalardan kaçın.
-* **Güçlendirmeler (Power-ups):**
-    * 🛡️ **Shield:** Çarpışmalardan korur.
-    * 🧲 **Magnet:** Yemekleri uzaktan çeker.
-    * ⚡ **2x Score:** Puanları ikiye katlar.
-    * ⏱️ **Slow:** (Sadece Survival/Mutation modlarında) Zamanı yavaşlatır.
-* **Kombo Sistemi:** Arka arkaya hızlı yemek yiyerek puanını katla.
-* **Dinamik Zorluk:** Kolay, Normal ve Zor seviyeleri.
-* **Yüksek Skorlar:** Her mod ve harita için yerel skor tablosu.
+## 🎮 Features
 
-## 🛠️ Kurulum
+### 🧩 Game Modes
 
-Bu oyunu çalıştırmak için bilgisayarınızda Python yüklü olmalıdır.
+-   **Classic** -- Pure skill.\
+-   **Survival** -- Eat before the hunger bar empties.\
+-   **Mutation** -- Snake segments may detach randomly.\
+-   **Bomb** -- Avoid explosive bombs.
 
-1.  Bu depoyu klonlayın veya indirin:
-    ```bash
-    git clone [https://github.com/Sitopapa/GlitchViper.git](https://github.com/Sitopapa/GlitchViper.git)
-    cd GlitchViper
-    ```
+### ⚡ Power-Ups
 
-2.  Gerekli kütüphaneleri yükleyin:
-    ```bash
-    pip install -r requirements.txt
-    ```
+-   🛡️ Shield\
+-   🧲 Magnet\
+-   ⚡ 2× Score\
+-   ⏱️ Slow
 
-3.  Oyunu başlatın:
-    ```bash
-    python main.py
-    ```
+### 🔥 Additional Systems
 
-## 🕹️ Kontroller
+-   Combo multiplier\
+-   Dynamic difficulty\
+-   Local high scores
 
-* **Yön Tuşları / W-A-S-D:** Yılanı hareket ettir.
-* **R:** Oyun bittiğinde yeniden başlat (Restart).
-* **ESC / M:** Menüye dön.
+------------------------------------------------------------------------
 
-## 🎵 Atıflar ve Telif Hakları (Credits)
+## 🎞️ Gameplay GIF
 
-### Müzikler (Music)
-Oyun içerisindeki atmosferik müzikler **Eric Matyas** tarafından bestelenmiştir.
-* **Music by Eric Matyas**
-* 🌐 [www.soundimage.org](https://soundimage.org)
+::: {align="center"}
+`<img src="assets/Images/gameplay.gif" alt="Gameplay GIF" width="500"/>`{=html}
+:::
 
-### Ses Efektleri (SFX)
-Ses efektleri **Pixabay** üzerinden temin edilmiştir.
+------------------------------------------------------------------------
 
-### Grafikler (Assets)
-Oyun içerisindeki piksel çizimler ve görsel tasarımlar proje sahibine aittir.
+## 🖼️ Screenshots
 
-## 📄 Lisans (License)
+::: {align="center"}
+`<img src="assets/Screenshots/screen1.png" width="400"/>`{=html}
+`<img src="assets/Screenshots/screen2.png" width="400"/>`{=html}
+`<img src="assets/Screenshots/screen3.png" width="400"/>`{=html}
+:::
 
-Bu projenin kaynak kodları ve özgün varlıkları **Telif Hakkı (c) 2025 Veli GEÇGEL**'a aittir.
+------------------------------------------------------------------------
 
-* Kaynak kodlarını inceleyebilir ve bireysel (ticari olmayan) amaçlarla değiştirebilirsiniz.
-* Oyunun bu haliyle ticari olarak satılması veya "Soundimage.org" müziklerinin atıf yapılmadan kullanılması yasaktır.
+## 🛠️ Installation
 
----
-*Developed with ❤️ using Python & Pygame.*
+``` bash
+git clone https://github.com/Sitopapa/GlitchViper.git
+cd GlitchViper
+pip install -r requirements.txt
+python main.py
+```
+
+------------------------------------------------------------------------
+
+## 🕹️ Controls
+
+  Action    Key
+  --------- ----------------------
+  Move      Arrow Keys / W A S D
+  Restart   R
+  Menu      ESC / M
+
+------------------------------------------------------------------------
+
+## 🎵 Credits
+
+### Music
+
+Eric Matyas --- https://soundimage.org
+
+### SFX
+
+Pixabay
+
+### Graphics
+
+Original pixel art by the project author.
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+© 2025 Veli GEÇGEL\
+Non-commercial use only.
+
+------------------------------------------------------------------------
+
+::: {align="center"}
+`<strong>`{=html}Developed with ❤️ using Python &
+Pygame.`</strong>`{=html}
+:::
